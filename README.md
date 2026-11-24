@@ -1,15 +1,24 @@
-# Project 20: Load Balanced App Deployment
+# Project 19: Scheduled S3 Backup
 
-## Goal
-Improve application scalability and performance.
-
-## Tasks
-1. Deploy two EC2 instances.
-2. Configure an Application Load Balancer (ALB).
-3. Configure ALB health checks.
+## Overview
+Automated backup of local log files to Amazon S3 using Bash scripting and Linux cron.
 
 ## Technologies
-- AWS EC2
-- AWS Application Load Balancer
-- AWS CLI
 - Ubuntu Linux
+- Bash
+- AWS CLI
+- Amazon S3
+- Cron
+
+## Tasks Completed
+- Created an S3 bucket.
+- Developed a backup script to upload log files.
+- Scheduled automatic daily backups using cron.
+- Logged backup execution results.
+
+## AWS Configuration
+- **Region:** `ap-south-1`
+- **S3 Bucket:** `project19-scheduled-backup-590507089733`
+
+## Outcome
+Automated log backups to Amazon S3 with execution status recorded locally.
